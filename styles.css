@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+/*Desktop / Global / view*/
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#logo {
+	width: 240px;
+}
+
+
+h1 {
+	font-size: 48px;
+	color:#0044d7;
+	font-weight: 900;
+	}
+
+.slicknav_menu {
+	display: none;
+	}
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+
+
+#menu li a {
+	text-decoration: none;
+	color: #0044d7;
+	font-weight: 900;
+	padding: 8px;
+	font-size: 18px;
+	
+}
+
+
+header {
+	padding-top: 25px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+
+
+footer {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+	
+
+
+
+
+
+/*Tablet view*/
+
+@media (max-width: 768px)	{
+
+	#menu li {
+	display: block;
+	text-align: right;
+	}
+		
+}
+
+	
+
+/*Mobile view*/
+
+@media (max-width: 400px)	{
+
+	
+	.slicknav_menu {
+	display: inline;
+	}
+	
+	#menu {
+	display: none
+	}
+	
+	
+	#logo {
+	width: 200px;
+	}
+	
+	header {
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+	
+}
